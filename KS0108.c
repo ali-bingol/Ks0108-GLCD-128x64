@@ -26,8 +26,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-extern const unsigned char tense[];
-extern const unsigned char sultanAhmetCamii[];
 extern const unsigned char font_b[][5];
 
 unsigned char screenBuffer[KS0108_SCREEN_WIDTH * (KS0108_SCREEN_HEIGHT / 8)];
