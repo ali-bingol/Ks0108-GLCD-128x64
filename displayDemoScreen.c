@@ -79,6 +79,9 @@ void testMiddleFonts(uint8_t color,uint8_t ExSpace,uint8_t drawLine){
 	GLCD_DrawStringImg(fontMiddleImg_h8, 0, 20, "LMNOPQRSTUVWXYZ[\\]^_`", color, ExSpace, drawLine);
 	GLCD_DrawStringImg(fontMiddleImg_h8, 0, 30, "abcdefghijklmnopqrstu", color, ExSpace, drawLine);
 	GLCD_DrawStringImg(fontMiddleImg_h8, 0, 40, "vwxyz{|}~", color, ExSpace, drawLine);
+	
+	
+	GLCD_DrawStringImg(fontMiddleImg_h8, 0, 55, "Merhaba   Dunya   Hello  ", 1, 1, 0);
 }
 
 void testMiddleFontsNoImg(uint8_t color){
@@ -87,6 +90,9 @@ void testMiddleFontsNoImg(uint8_t color){
 	GLCD_DrawString(0, 20, "LMNOPQRSTUVWXYZ[\\]^_`", color);
 	GLCD_DrawString(0, 30, "abcdefghijklmnopqrstu", color);
 	GLCD_DrawString(0, 40, "vwxyz{|}~", color);
+	
+	
+	GLCD_DrawString(0, 55, "Merhaba Dunya Hello", 1);
 }
 void testBigFonts1(uint8_t color,uint8_t ExSpace,uint8_t drawLine){
 	GLCD_DrawStringImg(fontBigImg_h16, 0, 0, "!\"$%&'()*+,-./", color, ExSpace, drawLine);
@@ -177,10 +183,3 @@ void demoScreenMiddleFontNoImg(uint8_t color){
 	GLCD_DrawString(1, 55, "TCR(%) R:23 S:23 T:23",color);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
